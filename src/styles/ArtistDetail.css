@@ -1,0 +1,29 @@
+h1{
+    color:white;
+    font-size: xx-large;
+}
+
+a{
+    color:white;
+    margin:10px;
+}
+
+img{
+   margin:25%;
+}
+
+.padre{
+    display: flex;
+}
+
+.imatge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+}
+
+.cositas{
+    margin-bottom: 20px;
+}
