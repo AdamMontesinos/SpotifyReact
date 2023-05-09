@@ -36,7 +36,7 @@ export function Search(props){
     <div>
         <Menu />
         <form onSubmit={searchSpotify}>
-            <input type="text" placeholder="Busca.." onChange={changeInput}></input>
+            <input type="text" placeholder="Busca Album..." onChange={changeInput}></input>
             <button type="submit">Buscar</button>
         </form>
 

@@ -18,8 +18,8 @@ export function Menu(){
         <nav>
             <ul>
                 <li><Link to="/"><img className="logo" alt="logo" src={require(`../img/logo.webp`)} /></Link></li>
-                <li><Link to="/search">Search</Link></li>
-                <li><Link to="/list">Lists</Link></li>
+                <li><Link to="/search">Albums</Link></li>
+                <li><Link to="/list">Songs</Link></li>
                 {
                     token ?
                         <li><Link onClick={()=>logout()}>Log Out</Link></li>
@@ -28,6 +28,9 @@ export function Menu(){
                 }
             </ul>
         </nav>
+        <div>
+            <h1>Benvinguts a Spotify</h1>
+        </div>
     </div>    
     )
 }

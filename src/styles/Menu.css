@@ -43,6 +43,10 @@ button{
     border-bottom-right-radius: 4px;
 }
 
+h1{
+    color: #1db954;
+}
+
 input{
     width: 20vh;
     height: 3vh;
